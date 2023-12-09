@@ -1,0 +1,141 @@
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/scripts/InitialiseControl/InitialiseControl.gml
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+GameMaker Studio 1 font texture has been backed up at /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/fonts/font0/font0.gms1.png
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/Create_0.gml
+Converted description /// @description  Initialise variables and starting hills
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 28: view_xview = oBird.phy_position_x-150 -> __view_set( e__VW.XView, 0, oBird.phy_position_x-150 )
+Converted builtin - line 36: view_yview += (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + ((oBird.phy_linear_velocity_y*0.02)) )
+Converted builtin - line 34: view_wview -= (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) - ((oBird.phy_linear_velocity_y*0.02)) )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview -= (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - ((oBird.phy_linear_velocity_y*0.02)) )
+Converted description /// @description Update hill points and view
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/Other_10.gml
+Converted description /// @description Create new hill point
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/Draw_64.gml
+Converted description /// @description  On screen info
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/Draw_0.gml
+Converted description /// @description  Physics debug draw
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oControl/KeyPress_17.gml
+Converted description /// @description Toggle debug
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oHillPoint/Create_0.gml
+Converted description /// @description Initialise variables
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oHillPoint/Alarm_0.gml
+Converted description /// @description  Create segments
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oHillPoint/Draw_0.gml
+Converted description /// @description  Debug draw
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oSegment/Create_0.gml
+Converted description /// @description  Initialise start and end points
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oSegment/Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update segments
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oSegment/Draw_0.gml
+Converted description /// @description  Draw segment
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oBird/Create_0.gml
+Converted description /// @description  Initialise variables and physics
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oBird/Step_0.gml
+Converted description /// @description Update player
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oBird/Collision_36ae9356-5dfd-44eb-9ea3-7cf2389eda06.gml
+Converted description /// @description Physics
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oBird/Collision_1205ea93-4953-42ca-b88e-218a26a5629d.gml
+Converted description /// @description Physics
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/oCoin/Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update coin
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Musical Bird/conv/gmx/Musical Bird_29C35A5B/objects/o_music/Draw_64.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Missing audiogroup for sound: 'snd_b1' - setting to default audio group
+Missing audiogroup for sound: 'snd_b2' - setting to default audio group
+Missing audiogroup for sound: 'snd_b3' - setting to default audio group
+Missing audiogroup for sound: 'snd_b4' - setting to default audio group
+Missing audiogroup for sound: 'snd_b5' - setting to default audio group
+Missing audiogroup for sound: 'snd_b6' - setting to default audio group
+Missing audiogroup for sound: 'snd_b7' - setting to default audio group
+Missing audiogroup for sound: 'snd_b8' - setting to default audio group
+Missing audiogroup for sound: 'snd_b9' - setting to default audio group
+Missing audiogroup for sound: 'snd_b10' - setting to default audio group
+Missing audiogroup for sound: 'snd_b11' - setting to default audio group
+Missing audiogroup for sound: 'snd_b12' - setting to default audio group
+Missing audiogroup for sound: 'snd_b13' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
